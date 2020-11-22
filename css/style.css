@@ -4,22 +4,33 @@ body {
 }
 
 .image-custom {
-    width: 130px;
+    width: 110px;
 
 }
 
-
-
-
-
-.button {
-    display: block;
-}
 
 .text {
     color: #D3DEDE;
     margin-top: -10px;
+    margin-bottom: 30px;
 
+}
+
+h5 {
+    font-size: 17px;
+}
+
+.radius-top {
+    border-radius: 15px 15px 5px 5px;
+}
+
+.radius-bottom {
+    border-radius: 5px 5px 15px 15px;
+}
+
+.footer,
+.text {
+    font-size: 11px;
 }
 
 @media (min-width: 1200px) {
@@ -30,13 +41,12 @@ body {
     }
 
     .image-custom {
-        width: 200px;
-
-
+        width: 160px;
     }
 
-
-
-
+    .footer,
+    .text {
+        font-size: 13px;
+    }
 
 }
